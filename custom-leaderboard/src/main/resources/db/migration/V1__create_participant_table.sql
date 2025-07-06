@@ -1,0 +1,5 @@
+CREATE TABLE participant (
+    id BIGINT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    score INT NOT NULL DEFAULT 0
+);
